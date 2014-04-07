@@ -5,25 +5,40 @@
 
 body {
 
-	background-color: ##d7d7d7; 
+	background-color: #ebebeb; 
+}
+
+nav {
+	font-size: 20px;
+	font-family: Helvetica;
+
+	
+}
+
+#navLinks {
+	display: inline-block;
+	padding-right:40px;
 }
 
 
 div {
 
 	border-radius: 5px;
+
 }
 
-div #header {
-	z-index: 1;
-	position: fixed;
-	width: 97.5%;
-	margin-top: -20px;
-	height: 60px;
-	background-color: #f0f0f0;
-	margin-bottom: 10px;
+#header {
+
+	color: #256f22;;
+	width: 97.5%%;
+	height: 50px;
+	background-color: #b2b2b2;
+	margin: auto;
+	margin-bottom: 20px;
 	font-family: 'Julius Sans One', sans-serif;
-}
+	text-align: center;
+	padding-top: 10px;
+	font-size:25px}
 
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -31,8 +46,14 @@ p {
 }
 
 a {
-	font-size: 10px;
+	font-size: 14px;
 	color: #256f22
+}
+
+#blog {
+
+font-size: 20px;
+
 }
 a:hover {
 	color: #ea9a60;
@@ -48,9 +69,13 @@ h1 {
 	font-family: 'Bubbler One', sans-serif;
 	text-transform: uppercase;
 	color: #256f22;
+
 }
 
 h2 {
 	font-family: 'Bubbler One', sans-serif;
 	color: #256f22;
+
 }
+
+
