@@ -1,19 +1,44 @@
 @import url(http://fonts.googleapis.com/css?family=Condiment);
 @import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One);
 @import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+body {
+
+	background-color: ##d7d7d7; 
+}
+
+
+div {
+
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #f0f0f0;
+	margin-bottom: 10px;
+	font-family: 'Julius Sans One', sans-serif;
+}
 
 p {
 	font-family: 'Open Sans', sans-serif;
+	color: #77736c;
 }
 
 a {
 	font-size: 10px;
+	color: #256f22
 }
 a:hover {
-	color: red;
+	color: #ea9a60;
 }
 
-.patel {
+.date {
 
 	font-family: 'Condiment', cursive;
 	font-style: italic;
@@ -22,8 +47,10 @@ a:hover {
 h1 {
 	font-family: 'Bubbler One', sans-serif;
 	text-transform: uppercase;
+	color: #256f22;
 }
 
 h2 {
 	font-family: 'Bubbler One', sans-serif;
+	color: #256f22;
 }
