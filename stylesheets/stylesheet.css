@@ -43,11 +43,21 @@ div {
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #77736c;
+	font-size: 14px;
+}
+
+ul {
+
+	font-family: 'Open Sans', sans-serif;
+	color: #77736c;
+	font-size: 14px;
 }
 
 a {
 	font-size: 14px;
-	color: #256f22
+	color: #256f22;
+	font-family: 'Bubbler One', sans-serif;
+
 }
 
 #blog {
